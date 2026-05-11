@@ -1,0 +1,70 @@
+{
+    "signup":{
+        "name": "Arimar Caminho Feliz",
+        "cpf": "02119800219",
+        "email": "marimaru@yopmail.com",
+        "whatsapp": 11945637891,
+        "address": {
+            "postalcode": "89036505",
+            "street": "Rua Anderson Bozzano",
+            "number": "160",
+            "details": "Apto 302",
+            "district": "Velha",
+            "city_state": "Blumenau/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "cpf_inv":{
+        "name": "Erro No CPF",
+        "cpf": "000 555 999 AB",
+        "email": "marimaru@yopmail.com",
+        "whatsapp": 11945637891,
+        "address": {
+            "postalcode": "89036505",
+            "street": "Rua Anderson Bozzano",
+            "number": "160",
+            "details": "Apto 302",
+            "district": "Velha",
+            "city_state": "Blumenau/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "email_inv":{
+        "name": "Erro No Email",
+        "cpf": "02119800219",
+        "email": "arimar.com.br",
+        "whatsapp": 11945637891,
+        "address": {
+            "postalcode": "89036505",
+            "street": "Rua Anderson Bozzano",
+            "number": "160",
+            "details": "Apto 302",
+            "district": "Velha",
+            "city_state": "Blumenau/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+
+    "whatsapp_inv":{
+        "name": "Erro No Whatsapp",
+        "cpf": "02119800219",
+        "email": "marumaru@yopmail.com",
+        "whatsapp": "asdasdasdad",
+        "address": {
+            "postalcode": "89036505",
+            "street": "Rua Anderson Bozzano",
+            "number": "160",
+            "details": "Apto 302",
+            "district": "Velha",
+            "city_state": "Blumenau/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+
+}
