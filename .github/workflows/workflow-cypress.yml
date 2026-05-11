@@ -1,0 +1,37 @@
+name: Cypress Regression Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      cli:
+        description: Run by cypress command line
+        default: yarn cypress run
+
+jobs:
+  ui-chrome-tests:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      fail-fast: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run Cypress Tests - Chrome
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+          spec: cypress/e2e/*
+          wait-on: ${{ secrets.BASE_URL }}
+          wait-on-timeout: 120
+          record: true
+          group: "UI - Chrome"
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
