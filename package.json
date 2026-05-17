@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx cypress open"
   },
-  "author": "Arimar Carvalho",
+  "author": "Daphine Mardegan",
   "license": "MIT",
   "devDependencies": {
     "cypress": "^15.14.2",
